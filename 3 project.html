@@ -1,0 +1,242 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook sign up page</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: rgb(240, 242, 245);
+            font-family: arial, sans-serif;
+        }
+        /*form section start*/
+        form{
+            width: 425px;
+            height:auto;
+            margin-left: 35%;
+            margin-top: 5%;
+            box-shadow: 0px 2px 10px 1px rgb(71, 71, 71, 0.52);
+            background: rgb(255, 255, 255);
+            position: relative;
+        }
+        /*1st title and sub title start*/
+        .first_title{
+            font-size: 20px;
+            padding:15px 10px 0px 10px;
+            text-align: center;
+            margin-bottom:-20px;
+        }
+        #sub_title{
+            color: #525962;
+            margin-left: 10px;
+
+        }
+        /*1st title and sub title end*/
+        /*input section start*/
+        #all{
+         width: 180px;
+         border-radius: 5px;
+         background:white;
+         height: 35px;
+         border: 1px solid #aaa;
+         font-size: 15px;
+         margin-left: 12px;
+         margin-top: 10px;
+         padding-left: 10px;
+       }
+       #all1{
+        width: 390px;
+        background: white;
+        height: 35px;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding-left: 10px;
+       }
+       /*input section end*/ 
+       /*date of birth section start*/
+       .sub_title_2{
+        margin-top: 30px;
+        font-size: 12px;
+       }
+       select{
+        width: 125px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 35px;
+        font-size: 15px;
+        background: none;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+       }
+       /*date of birth section end*/
+       /*gender section start*/
+       .sub_title_3{
+        margin-top: 20px;
+        font-size: 12px;
+       }
+       #all_Gender{
+        width: 110px;
+        height: 40px;
+        padding: 10px 0px 0px 10px;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+       }
+       .female {
+        margin-bottom: -20px;
+        margin-left:10px ;
+       }
+       .male{
+        margin-bottom:-20px;
+        margin-left:151px;
+       }
+       .other{
+        margin-bottom:5px;
+        margin-left:290px ;
+
+       }
+       /*gender section  end*/
+       .submit{
+        width: 160px;
+        height: 30px;
+        background: rgb(6, 142, 6);
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        box-shadow: green;
+        margin-left: 30%;
+        margin-top: 15px;
+        justify-content: center;
+       }
+       .p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 11px;
+        color: rgb(130, 128, 128);
+       }
+      
+        /*form section end*/
+        h1{
+        font-size:50px;
+        text-align: center;
+        color: #0000ff;
+        padding: -20%;
+       }
+      .p2{
+        text-align: center;
+        font-size: 15px;
+        color: rgb(4, 4, 144);
+        margin-bottom: 10px;
+        padding: 20px;
+      }
+      .sub_title_4{
+        margin-left: 10px;
+        font-size: 12px;
+        color: #525962;
+        margin-top: 20px;
+        text-decoration: none;
+      }
+      
+    </style>
+</head>
+<body>
+    <div>
+            <div class="h1">
+                <h1>facebook</h1>
+            </div>
+
+            <form>
+                <h4 class="first_title">Create a new account</h4>
+                <p class="p">its quick and easy</p>
+                <hr>
+
+                <div class="input">
+                <input type="text" placeholder="First name" class="first_name" id="all" required>
+                <input type="text" placeholder="Surname" class="surname" id="all"required>
+                <br />
+                <input type="text" placeholder="Mobile number or email address" id="all1" required>
+                <br />
+                <input type="text" placeholder="New password" id="all1" required>
+                <br />
+              </div>
+
+              <p class="sub_title_2" id="sub_title">Date of Birth</p>
+             <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+             </select>
+             <select>
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Jun</option>
+                <option>Jul</option>
+                <option>Aug</option>
+                <option>Sep</option>
+                <option>Oct</option>
+                <option>Nov</option>
+                <option>Dec</option> 
+             </select>
+             <select>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+             </select>
+
+             <p class="sub_title_3" id="sub_title">Gender</p>
+        
+             <div class="female" id="all gender">
+               <label for="female">Female</label>
+                <input type="radio" name="gender" value="female">
+             </div>
+             <div class="male" id="all gender">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male">
+             </div>
+             <div class="other" id="all gender">
+                <label for="other">custom</label>
+                <input type="radio" name="gender" value="other">
+            </div>
+            
+            <P class="sub_title_4">People who use our service may have uploaded your contact information to
+                Facebook. <a href="#">learn more.</a></P>
+            
+            <p class="sub_title_4">By clicking sign up. you agree to our <a href="#">terms, privacy policy</a> and <a href="#">cookies policy</a> you may receive sms notifications from us and can opt out at any time.</p>
+            <a href="#"><input type="submit" value="sign up" class="submit"></a>
+
+             <p class="p2"><a href="second project.html">Already have an account?</a></p>
+        
+            </form>
+
+    </div>
+    
+</body>
+</html>
